@@ -1,18 +1,18 @@
 {
-  "name" : " LøseØnlineRobot " ,
-  "logo" : " https://telegra.ph/file/501b48450e3e76704b618.jpg " ,
-  "description" : " LøseØnlineBot bot sıze ucretsız uyelerinizi etiketleyen bir bottur. " ,
+  "name" : " Gizem etiket bot " ,
+  "logo" : " https://telegra.ph/file/5268a0cbee33dd4bfa267fa13419391d.jpg " ,
+  "description" : " Gizem etiket bot sıze ucretsız uyelerinizi etiketleyen bir bottur. " ,
   "env" : {
     "TOKEN" : {
-      "description" : " bot token girin. " ,
+      "description" : " 7362668216:AAGUtIovlLvZQhlKZeRe93e5SExDv1mHWec " ,
       "value" : " "
     },
     "APP_ID" : {
-      "description" : " @otomytelegrambot dan api hash api kimliği alınız. @LoseOnlineRobot'a ortak çalışsın " ,
+      "description" : " 28884200 " ,
       "value" : " "
     },
     "API_HASH" : {
-      "description" : " @otomytelegrambot dan api hash api kimliği alınız. " ,
+      "description" : " dc733453a6c41772d029cc9c2d21f08d " ,
       "value" : " "
     }
   },
