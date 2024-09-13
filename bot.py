@@ -8,11 +8,11 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(name)s - [%(levelname)s] - %(message)s'
 )
-LOGGER = logging.getLogger(__name__)
+LOGGER = logging.getLogger(__https://t.me/gizemlogg__)
 
-api_id = int(os.environ.get("APP_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("TOKEN")
+api_id = int(os.environ.get("28884200"))
+api_hash = os.environ.get("dc733453a6c41772d029cc9c2d21f08d")
+bot_token = os.environ.get("7362668216:AAGUtIovlLvZQhlKZeRe93e5SExDv1mHWec")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 anlik_calisan = []
@@ -25,20 +25,20 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**Ben Løse Ønline Tagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
+  await event.reply("**MERHABA BEN GİZEM ETİKET BOT**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/LoseOnlineRobot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/loseonline')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/gizemlogg'),
+                      Button.url('📣 Geliştirici', https://t.me/gizemlogg')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**@LoseOnlineRobot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n\n`Örnek: /all Günaydın!`  \n\nBu komutu yanıt olarak kullanabilirsiniz. Herhangi bir mesaj yanıtlandığında, yanıtlanan mesaj ile kullanıcıları etiketleyecebilir."
+  helptext = "**@Gizemetiketbot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n\n`Örnek: /all Günaydın!`  \n\nBu komutu yanıt olarak kullanabilirsiniz. Herhangi bir mesaj yanıtlandığında, yanıtlanan mesaj ile kullanıcıları etiketleyecebilir."
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/LoseOnlineRobot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/loseonline')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/gizemlogg'),
+                      Button.url('📣 Geliştirici', '@Gizemetiketbot')]
                     ),
                     link_preview=False
                    )
@@ -80,6 +80,6 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
 
-print(">> Bot çalıyor merak etme 🚀 @loseonline bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @Burakbennburak bilgi alabilirsin <<")
 client.run_until_disconnected()
  
